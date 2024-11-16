@@ -53,7 +53,12 @@ section { padding: 70px 0; }
 .container { padding: 0 50px; }
 
 /* Title */
-.section-title { font-weight: 300; margin-bottom: 30px; margin-top: 0; }
+.section-title {
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: #182D37 !important;
+}
 .section-title b { font-weight: 400; }
 
 /* Paragraph */
@@ -73,12 +78,20 @@ button i { margin-left: 5px; }
 .navbar .navbar-nav li a { color: #FFF; font-size: 11px; letter-spacing: .5px; }
 .navbar .navbar-nav li a:hover { color: #FFF; }
 
-.navbar-fixed-style { width: 100%; border-radius: 0; height: 60px; padding: 0; background: #FFF; box-shadow: 0 0 10px rgba( 0, 0, 0, .3 ); transition: all .3s ease; }
+.navbar-fixed-style {
+    width: 100%;
+    border-radius: 0;
+    height: 70px;
+    padding: 0;
+    background: #182D37;
+    box-shadow: 0 0 10px rgba( 0, 0, 0, .3 );
+    transition: all .3s ease;
+}
 .navbar-fixed-style .container .inner-navbar { height: 100%; padding: 0; border-bottom: 0; }
 .navbar-fixed-style .navbar-header .navbar-brand { height: 100%; line-height: 60px; padding: 0 15px; color: #3498DB; }
-.navbar-fixed-style .navbar-right { height: 60px; }
+.navbar-fixed-style .navbar-right { height: 70px; }
 .navbar-fixed-style .navbar-right li { height: 100%; }
-.navbar-fixed-style .navbar-right li a { height: 100%; padding: 0 15px; line-height: 60px; color: #182D37; }
+.navbar-fixed-style .navbar-right li a { height: 100%; padding: 0 15px; line-height: 60px; color: #fff;margin-top:4px; }
 .navbar-fixed-style .navbar-nav li a.active, .navbar-fixed-style .navbar-right li a:hover { color: #3498DB; }
 /* End Main Navbar */
 

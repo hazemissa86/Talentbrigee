@@ -1,0 +1,22 @@
+﻿body {
+}
+
+
+.logo-img {
+    width: 20% !important;
+}
+.footer-logo-img {
+    width: 10% !important;
+}
+
+.gray-section {
+    background-color: #FAFAFA !important;
+    border-top: 1px solid #EEE !important;
+    border-bottom: 1px solid #EEE !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+h3 {
+    color: #182D37 !important;
+}
